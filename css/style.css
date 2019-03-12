@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: #2c3e50;
+    color: #ffffff;
+    width: 100%;
+    
+}
+
+.navegacion{
+    width: 1000px;
+	margin: 30px auto;
+	
+}
+
+.navegacion ul{
+    list-style: none;
+}
+
+.menu li{
+    position: relative;
+    display: inline-block;
+}
+
+.menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: #ffffff;
+    font-family: Open sans;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    color: #ce7d35;
+    transition: all .3s;
+}
+
+.main{
+    background: #f2f2f2;
+}
+
+.color{
+    background: #34495e;
+    color: #ffffff;
+}
+
+aside{
+    background: #c0392b;
+    color: #ffffff;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #34495e;
+    color: #ffffff;
+  }
+
+  
